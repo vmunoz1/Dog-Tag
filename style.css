@@ -61,10 +61,12 @@ body {
 	color: white;
 	background-color: gray;
 }
-
+/* use media to change the code when you make the screen smaller, responsive */
 @media only screen and (max-width: 700px) {
   .tree-wrapper {
 	display: none;
+/* display block is stacked on top of eachother while flex is next to eachother */
+/* display is how you want the divs to be placed vertically or horizantally */
   }
   body {
 	background-image: url("images/tree-backdrop.png");
